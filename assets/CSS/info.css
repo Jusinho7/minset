@@ -1,0 +1,21 @@
+.history {
+    padding: 100px;    
+}
+
+.history h1{
+    text-align: center;
+    font-family: 'Rubik 80s Fade', system-ui;
+    font-variant: small-caps;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(172, 147, 10);
+     text-shadow: 2px 2px 0 #000, 
+        4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.history p{
+    font-size: 15px;
+    color: white;
+}

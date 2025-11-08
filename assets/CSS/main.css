@@ -1,0 +1,62 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: 'Rubik 80s Fade', system-ui;
+    font-variant: small-caps;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(172, 147, 10);
+    text-shadow: 2px 2px 0 #000, 
+        4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left p {
+    margin-left: 40vh;
+}
+
+.left img {
+    width: 30vh;
+    height: 15vh;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.right {
+    display:flex;
+    flex-direction: row;  
+    margin-top: 5vh;  
+    justify-content: space-between;
+}
+
+.price {
+    margin-left: 40vh;
+}
+
+.price,
+.article {
+    font-family: 'Caveat';
+    font-size: 3vh;
+    color: rgb(235, 235, 172);
+    text-shadow: 2px 2px 0 #000, 
+        4px 4px 10px rgba(26, 25, 25, 0.3);
+}
+
