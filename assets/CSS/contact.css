@@ -79,3 +79,140 @@ textarea::placeholder{
     font-style: italic;
 }
 
+/* --- Mobile (petits écrans < 480px) --- */
+@media (max-width: 479px) {
+    .main h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .main-content2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .main-content3 input,
+    .main-content3 textarea,
+    .main-content2 input {
+        width: 90%;
+    }
+    .main-content3 textarea {
+        height: 100px;
+    }
+    .main-content3 button {
+        width: 45%;
+        height: 45px;
+        font-size: 12px;
+    }
+    .contact2 {
+        top: 40%;
+    }
+
+}
+
+/* --- iPhone (480px - 767px) --- */
+@media (min-width: 480px) and (max-width: 767px) {
+    .main h1 {
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .main-content2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main-content3 input,
+    .main-content3 textarea,
+    .main-content2 input {
+        width: 80%;
+    }
+    .main-content3 textarea {
+        height: 140px;
+    }
+    .main-content3 button {
+        width: 60%;
+        height: 60px;
+    }
+    .contact2 {
+        top: 42%;
+    }
+}
+
+
+/* --- Tablette (768px - 1023px) --- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .main h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    .main-content2 {
+        flex-direction: row;
+        gap: 25px;
+    }
+    .main-content3 input,
+    .main-content3 textarea,
+    .main-content2 input {
+        width: 60%;
+    }
+    .main-content3 textarea {
+        height: 180px;
+    }
+    .main-content3 button {
+        width: 40%;
+        height: 70px;
+    }
+    .contact2 {
+        top: 43%;
+    }
+}
+
+/* --- Laptop (1024px - 1439px) --- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .main h1 {
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    .main-content2 {
+        flex-direction: row;
+        gap: 30px;
+    }
+    .main-content3 input,
+    .main-content3 textarea,
+    .main-content2 input {
+        width: 50vh;
+    }
+    .main-content3 textarea {
+        height: 18vh;
+    }
+    .main-content3 button {
+        width: 20vh;
+        height: 8vh;
+    }
+    .contact2 {
+        top: 45%;
+    }
+}
+
+/* --- Ecran TV / grands écrans ≥ 1440px --- */
+@media (min-width: 1440px) {
+    .main h1 {
+        font-size: 44px;
+        letter-spacing: 6px;
+    }
+    .main-content2 {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .main-content3 input,
+    .main-content3 textarea,
+    .main-content2 input {
+        width: 60vh;
+    }
+    .main-content3 textarea {
+        height: 20vh;
+    }
+    .main-content3 button {
+        width: 25vh;
+        height: 9vh;
+    }
+    .contact2 {
+        top: 48%;
+    }
+}

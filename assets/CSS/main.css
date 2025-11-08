@@ -60,3 +60,132 @@
         4px 4px 10px rgba(26, 25, 25, 0.3);
 }
 
+
+/* --- Mobile (petits écrans < 480px) --- */
+@media (max-width: 479px) {
+    .menu h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .left p,
+    .price {
+        margin-left: 0;
+    }
+    .left img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .price,
+    .article {
+        font-size: 4vw;
+    }
+}
+
+/* --- iPhone (480px - 767px) --- */
+@media (min-width: 480px) and (max-width: 767px) {
+    .menu h1 {
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left p,
+    .price {
+        margin-left: 0;
+    }
+    .left img {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .price,
+    .article {
+        font-size: 3.5vw;
+    }
+}
+
+/* --- Tablette (768px - 1023px) --- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .menu h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    .content {
+        flex-direction: column; 
+        gap: 20px;
+        align-items: center; 
+    }
+    .left {
+        width: 90%; 
+    }
+    .left img {
+        width: 60%; 
+        height: auto;
+        margin: 0 auto;
+    }
+    .left p,
+    .price {
+        margin-left: 0; 
+        text-align: center; 
+    }
+    .price,
+    .article {
+        font-size: 3vw; 
+    }
+}
+
+
+/* --- Laptop (1024px - 1439px) --- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .menu h1 {
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    .content {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .left img {
+        width: 30vh;
+        height: 15vh;
+    }
+    .price,
+    .article {
+        font-size: 3vh;
+    }
+    .left p,
+    .price {
+        margin-left: 40vh;
+    }
+}
+
+/* --- Ecran TV / grands écrans ≥ 1440px --- */
+@media (min-width: 1440px) {
+    .menu h1 {
+        font-size: 44px;
+        letter-spacing: 6px;
+    }
+    .content {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .left img {
+        width: 35vh;
+        height: 17vh;
+    }
+    .price,
+    .article {
+        font-size: 3.5vh;
+    }
+    .left p,
+    .price {
+        margin-left: 45vh;
+    }
+}

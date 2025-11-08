@@ -19,3 +19,74 @@
     font-size: 15px;
     color: white;
 }
+
+
+/* --- Mobile (petits écrans < 480px) --- */
+@media (max-width: 479px) {
+    .history {
+        padding: 40px;
+    }
+    .history h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .history p {
+        font-size: 12px;
+    }
+}
+
+/* --- iPhone (480px - 767px) --- */
+@media (min-width: 480px) and (max-width: 767px) {
+    .history {
+        padding: 50px;
+    }
+    .history h1 {
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .history p {
+        font-size: 13px;
+    }
+}
+
+/* --- Tablette (768px - 1023px) --- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .history {
+        padding: 70px;
+    }
+    .history h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    .history p {
+        font-size: 14px;
+    }
+}
+
+/* --- Laptop (1024px - 1439px) --- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .history {
+        padding: 90px;
+    }
+    .history h1 {
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    .history p {
+        font-size: 15px;
+    }
+}
+
+/* --- Ecran TV / grands écrans ≥ 1440px --- */
+@media (min-width: 1440px) {
+    .history {
+        padding: 100px;
+    }
+    .history h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .history p {
+        font-size: 16px;
+    }
+}

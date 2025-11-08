@@ -35,3 +35,53 @@ body::after {
 hr {
     color: rgb(172, 147, 10);
 }
+
+/* --- Mobile (petits écrans < 480px) --- */
+@media (max-width: 479px) {
+    body::before {
+        filter: blur(6px);
+    }
+    body::after {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* --- iPhone (480px - 767px) --- */
+@media (min-width: 480px) and (max-width: 767px) {
+    body::before {
+        filter: blur(7px);
+    }
+    body::after {
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+}
+
+/* --- Tablette (768px - 1023px) --- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body::before {
+        filter: blur(8px);
+    }
+    body::after {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* --- Laptop (1024px - 1439px) --- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body::before {
+        filter: blur(8px);
+    }
+    body::after {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* --- Ecran TV / grands écrans ≥ 1440px --- */
+@media (min-width: 1440px) {
+    body::before {
+        filter: blur(8px);
+    }
+    body::after {
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+}

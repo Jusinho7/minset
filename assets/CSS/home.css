@@ -12,3 +12,60 @@
         4px 4px 10px rgba(0,0,0,0.3);
     font-size: 7vh;
 }
+
+
+/* --- Mobile (petits écrans < 480px) --- */
+@media (max-width: 479px) {
+    .home {
+        padding: 20vh;
+    }
+    .home h1 {
+        font-size: 5vh;
+        text-align: center;
+    }
+}
+
+/* --- iPhone (480px - 767px) --- */
+@media (min-width: 480px) and (max-width: 767px) {
+    .home {
+        padding: 25vh;
+    }
+    .home h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+}
+
+/* --- Tablette (768px - 1023px) --- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home {
+        padding: 30vh;
+    }
+    .home h1 {
+        font-size: 6.5vh;
+        text-align: center;
+    }
+}
+
+/* --- Laptop (1024px - 1439px) --- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .home {
+        padding: 35vh;
+    }
+    .home h1 {
+        font-size: 7vh;
+        text-align: center;
+    }
+}
+
+/* --- Ecran TV / grands écrans ≥ 1440px --- */
+@media (min-width: 1440px) {
+    .home {
+        padding: 40vh;
+    }
+    .home h1 {
+        font-size: 8vh;
+        text-align: center;
+    }
+}
+
